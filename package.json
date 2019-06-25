@@ -1,0 +1,18 @@
+{
+  "name": "test-dott",
+  "version": "0.0.1",
+  "description": "Quick test",
+  "main": "index.js",
+  "scripts": {
+    "dev:task1": "parcel ./task2/index.html",
+    "dev:task2": "parcel ./task2/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "serzn1",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/intl": "^1.2.0",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.2"
+  }
+}

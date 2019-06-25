@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./index.ts"></script>
+</head>
+<body>
+    <custom-search id="search1" api="http://openlibrary.org/search.json?q="></custom-search>
+    <custom-search-last-time search-id="search1"></custom-search-last-time>
+    <!-- better to make it more configurable next life -->
+    <custom-carousel source="search1"></custom-carousel>
+</body>
+</html>
